@@ -21,5 +21,6 @@ const parking = '/parking';
 router.post(`${parking}/register/:option`, [verifyHeaders], parkingRoute.register);
 router.post(`${parking}/create/:option`, [verifyHeaders], parkingRoute.create);
 router.get(`${parking}/type`, [verifyHeaders], parkingRoute.type);
+router.put(`${parking}/make/:option`, [verifyHeaders], parkingRoute.make);
 
 module.exports = router;

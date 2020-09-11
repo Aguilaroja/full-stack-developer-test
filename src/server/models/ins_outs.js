@@ -30,6 +30,10 @@ let insOutsSchema = new Schema({
     reseted: {
         type: Boolean,
         default: false
+    },
+    reported: {
+        type: Boolean,
+        default: false
     }
 });
 
